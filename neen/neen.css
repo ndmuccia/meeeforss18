@@ -1,0 +1,44 @@
+body {
+      animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: #C9EAF3;}
+      25%  {background: #FFCEFF;}
+      50%  {background: #CAFEB8;}
+      75%  {background: #e1f7d5;}
+      100% {background: #c9c9ff;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #C9EAF3;}
+      25%  {background: #FFCEFF;}
+      50%  {background: #CAFEB8;}
+      75%  {background: #e1f7d5;}
+      100% {background: #c9c9ff;}
+    }
+
+    @font-face {
+    font-family: 'Buffon-Regular';
+    src: url('fonts/buffon-regular.0tf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    h1 {
+    font-family: 'Buffon-Regular'; 
+    color: black;
+    font-size: 40px;
+    padding-left: 20px;
+    }
+
+    @font-face {
+    font-family: 'MetalShred';
+    src: url('fonts/metalshred.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    }

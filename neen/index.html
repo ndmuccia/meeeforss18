@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset = "UTF-8">
+ <title>neen.html</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "neen.css" />
+
+<script type="text/javascript">                                                  /* Display/Hide Script */
+function unhide(clickedButton, divID) {
+var item = document.getElementById(divID);
+var randomImage = document.getElementById('randomImage');
+if (item) {
+    if(item.className=='hidden'){
+        item.className = 'unhidden' ;
+        if (divID !== 'hi') {
+        	randomImage.classList.add("active");
+        }
+    } else {
+        item.className = 'hidden';
+        clickedButton.value = ':)';
+        if (divID !== 'hi') {
+        	randomImage.classList.remove("active");    
+    	}
+    }
+}}
+</script>
+
+
+  </head>
+<body> 
+
+<marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.setAttribute('scrollamount', 3, 0);" onmouseout="this.setAttribute('scrollamount', 8, 0);"><font size="40" font face="Buffon-Regular" color="black">Howdy I'm nina! Here you will find a bit more about meeeeee.</marquee>
+
+<div id ="image">
+<img src="images/nina.gif" alt="Meeeeee"/>
+</div>
+
+<h2>(refresh for a new welcome) </h2>
+
+<div id="randomImage" class="rando">
+
+      <!-- start random image script -->
+    <script language="JavaScript">
+    function random_imglink(){
+    var myimages=new Array()
+    //specify random images below. You can have as many as you wish
+    myimages[1]="images/welcome1.gif"
+    myimages[2]="images/welcome2.gif"
+    myimages[3]="images/welcome3.gif"
+    myimages[4]="images/welcome4.gif"
+    myimages[2]="images/welcome5.gif"
+    myimages[3]="images/welcome6.gif"
+    var ry=Math.floor(Math.random()*myimages.length)
+    if (ry==0)
+    ry=1
+    document.write('<img src="'+myimages[ry]+'" border=0>')
+    }
+    random_imglink()
+    </script>
+    <!-- end random image script -->
+
+<h2>Ciao everyone!!!</h2>
+
+<div id ="image">
+<img src="images/gemini.gif" alt="Gemini"/>
+</div>
+
+<h2>I am *Gemini* and recently celebrated my 23rd birthday.</h2>
+
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1530052199103!6m8!1m7!1sMY8zOTo-L3Yi-UOeCnz5tQ!2m2!1d40.79584991618991!2d-74.2045264659892!3f40.24473745863231!4f-7.136232312286893!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+
+<h2>This is the house I grew up and where I currently live in Glen Ridge, NJ. As of late I'm obsessed with The Sopranos and pleased to have location, Italian–American heritage, and an affinity for birds in common with Tony.</h2>
+
+<div id ="image">
+<img src="images/tony.jpg" alt="Tony Soprano"/>
+</div>
+
+<h2>I am also lucky to be in close proximity to NYC where I spend a decent amount of time but avoid paying $$$rent$$$.</h2>
+
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1531422414363!6m8!1m7!1syb3TLNma5z6CoD8bZ5fplA!2m2!1d40.7042879962703!2d-73.99049327417339!3f281.64317484886396!4f-1.7194454549331084!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<h2>When I am here I try to manifest other beloved characters such as Carrie Bradshaw or Blair Waldorf... sometimes I'm more of a Miranda.</h2>
+
+<div id ="image">
+<img src="images/carrie.png" alt="Carrie Bradshaw"/>
+</div>
+
+<div id ="image">
+<img src="images/blair.png" alt="Blair Waldorf"/>
+</div>
+
+<h2>I went to college in Savannah, Georgia (of the American south) where I studied graphic design and printmaking.</h2>
+
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1531424559201!6m8!1m7!1sLbQNUaSLBVmvS0krnjVGQA!2m2!1d32.07228834555001!2d-81.09366508887483!3f288.2620590254941!4f5.3184774262189904!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<h2>I am less involved with printmaking now but am happy to intertwine the two interests in the form of zine making.</h2>
+
+<div id ="image">
+<a href="https://www.printedmatter.org/search?query=nina+muccia">
+<img src="images/zines.png" alt="zines">
+</a>
+</div>
+
+<h2>Recently I have been interested in making digital paintings on my phone.</h2>
+
+<div id ="image">
+<img src="images/painting1.jpg" alt="NEEN1"/>
+</div>
+
+<div id ="image">
+<img src="images/painting2.png" alt="NEEN2"/>
+</div>
+
+<div id ="image">
+<img src="images/neen3.png" alt="NEEN3"/>
+</div>
+
+<div id ="image">
+<img src="images/neen4.png" alt="NEEN4"/>
+</div>
+
+<h2>I've also been really interested in medieval aesthetics...</h2>
+
+<div id ="image">
+<img src="images/castle.gif" alt="Castle"/>
+</div>
+
+<h2>... and the Myth of the American West.</h2>
+
+<div id ="image">
+<img src="images/cowboy.gif" alt="Cowboy"/>
+</div>
+
+<h2>PS – I am obsessed with these guys:)</h2>
+
+<div id ="image">
+<img src="images/dog.jpg" alt="Qt"/>
+</div>
+
+<h2> ... And this guy.</h2>
+
+<div id ="image">
+<a href="https://www.are.na/nina-muccia/mister-john-maus-performing-hysteria-of-the-body">
+<img src="images/johnmaus.jpg" alt="John Maus"/>
+</a>
+</div>
+
+
+<h2>I'm currently reading Ferrante to set a mood for Urbino.</h2>
+
+<div id ="image">
+<img src="images/ferrante.jpg" alt="Ferrante"/>
+</div>
+
+<marquee behavior="scroll" direction="left" scrollamount="8" onmouseover="this.setAttribute('scrollamount', 3, 0);" onmouseout="this.setAttribute('scrollamount', 8, 0);"><font size="60" font face="MetalShred" color="black">I really love intense metal typefaces at the moment</marquee>
+
+<div id="randomImage" class="rando">
+
+      <!-- start random image script -->
+    <script language="JavaScript">
+    function random_imglink(){
+    var myimages=new Array()
+    //specify random images below. You can have as many as you wish
+    myimages[1]="images/thanks1.gif"
+    myimages[2]="images/thanks2.gif"
+    myimages[3]="images/thanks3.gif"
+    myimages[4]="images/thanks4.gif"
+    var ry=Math.floor(Math.random()*myimages.length)
+    if (ry==0)
+    ry=1
+    document.write('<img src="'+myimages[ry]+'" border=0>')
+    }
+    random_imglink()
+    </script>
+    <!-- end random image script -->
+
+
+
+    <div id="search_box">
+    <form class="searchbar">
+    <input type="text" placeholder="&nbsp;search" required>
+    <button type="submit">search</button>
+    </form>
+    </div>
+
+    <!-- ,---.   .--..-./`) ,---.   .--.   ____                .`````-.   .-```````-.    ,---.    .-''''-.           
+|    \  |  |\ .-.')|    \  |  | .'  __ `.            /   ,-.  \ / ,```````. \  /_   |   /  _--.  \          
+|  ,  \ |  |/ `-' \|  ,  \ |  |/   '  \  \          (___/  |   ||/ .-./ )  \|    ,_ |   |_( )_ ' |          
+|  |\_ \|  | `-'`"`|  |\_ \|  ||___|  /  |                .'  / || \ '_ .')||,-./  )|   (_ o _). /          
+|  _( )_\  | .---. |  _( )_\  |   _.-`   |            _.-'_.-'  ||(_ (_) _)||\  '_ '`) .'(_,_).  `.         
+| (_ o _)  | |   | | (_ o _)  |.'   _    |          _/_  .'     ||  / .  \ || > (_)  )|_( )_    \  |        
+|  (_,_)\  | |   | |  (_,_)\  ||  _( )_  |         ( ' )(__..--.||  `-'`"` ||(  .  .-'(_ o _)   /  |        
+|  |    |  | |   | |  |    |  |\ (_ o _) /        (_{;}_)      |\'._______.'/ `-'`-'|  (_,_)..-' .'         
+'--'    '--' '---' '--'    '--' '.(_,_).'          (_,_)-------' '._______.'    '---'    `-....-'           
+                                                                                                    -->
+
+
+</body>
+</html>
